@@ -1,4 +1,4 @@
-// == Import npm<Code /> Développeur web</a>
+// == Import npm
 import React from 'react';
 
 // == Import
@@ -9,6 +9,7 @@ import {
   MessageCircle,
   Mail,
 } from 'react-feather';
+import { Link } from 'react-router-dom';
 import HeaderStyled from './HeaderStyled';
 
 // == Composant
@@ -16,10 +17,12 @@ const Header = () => (
   <HeaderStyled>
     <img src={avatar} alt="Marc Lehartel" />
     <nav>
-      <a href="">  <Code className="icons" /> Développeur web</a>
-      <a href=""> <MessageSquare className="icons" /> Chargé de communication</a>
-      <a href=""> <MessageCircle className="icons" /> Community Manager</a>
-      <a href=""> <Mail className="icons" /> Contact</a>
+      <ul>
+        <li> <Link to="/developpeurweb"><Code className="icons" /> Développeur web</Link></li>
+        <li><Link to="/chargedecommunication"><MessageSquare className="icons" /> Chargé de communication</Link></li>
+        <li><Link to="/communitymanager"><MessageCircle className="icons" /> Community Manager</Link></li>
+        <li><Link to="/contact"> <Mail className="icons" /> Contact</Link></li>
+      </ul>
     </nav>
   </HeaderStyled>
 );
