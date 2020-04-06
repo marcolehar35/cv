@@ -38,6 +38,14 @@ ul{
     }
   }
 }
+
+.activ{
+      color: ${theme.colors.activ};
+      padding: 0.25em 0em;
+      .icons{
+        display: inline;
+      }
+  }
  @media all and (min-width: 890px) {
    text-align: none;
 
