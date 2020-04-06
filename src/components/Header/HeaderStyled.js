@@ -12,11 +12,10 @@ img{
   height: 5em;
 }
 
-nav{
+ul{
   display: flex; 
   flex-direction: column; 
   justify-content: flex-end; 
-  height: 10%;
   color: ${theme.colors.primary};
   font-size: ${theme.fontSize.l};
   text-align: left;
@@ -26,7 +25,7 @@ nav{
     height: 0.8em;
   }
   
-  a{
+  li{
     padding: 0.25em 0.65em;
     margin: 0.25em; 
 
@@ -39,10 +38,18 @@ nav{
     }
   }
 }
+
+.activ{
+      color: ${theme.colors.activ};
+      padding: 0.25em 0em;
+      .icons{
+        display: inline;
+      }
+  }
  @media all and (min-width: 890px) {
    text-align: none;
 
-   nav {
+   ul {
      flex-direction: row;
    }
  }
