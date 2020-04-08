@@ -1,6 +1,6 @@
 // == Import npm
-import PropTypes from "prop-types";
-import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 // == Import
 import avatar from 'src/assets/images/avatar.jpg';

@@ -5,11 +5,14 @@ import theme from 'src/styles/theme';
 const HeaderStyled = styled.header`
 display: flex;
 justify-content: space-between; 
+background-color: white;
+padding: 0.5em;
 
 
 img{
   border-radius: 80%;
   height: 5em;
+  margin-right: 0.5em;
 }
 
 ul{
@@ -48,10 +51,17 @@ ul{
   }
  @media all and (min-width: 890px) {
    text-align: none;
+    position: fixed;
+    width: 100%;
+    nav{
+      display: flex; 
+      align-items: center;
 
-   ul {
+      ul {
      flex-direction: row;
-   }
+      }
+    }
+  
  }
 `;
 
