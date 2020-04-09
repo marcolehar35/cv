@@ -5,10 +5,11 @@ export default {
     m: '1.188em',
   },
   colors: {
-    back: '#43797c',
+    back: '#0BC9CD',
     primary: '#1985A1',
     activ: '#0BC9CD',
+    card: '#E7F5FE',
   },
 };
 
-// back: '#477c7f',
+// back: '#477c7f', #0bc9cd, #43797c

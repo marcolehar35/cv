@@ -11,7 +11,8 @@ const TopPage = () => (
     <img src={nuage} alt="" className="nuage-1" />
     <img src={avatarDrawn} alt="Marc Lehartel" id="avatar" />
     <img src={nuage} alt="" className="nuage-2" />
-    <h1> Que la programmation soit avec vous ! <ThumbsUp /> </h1>
+    <h1> Que la programmation soit avec nous ! <ThumbsUp /> </h1>
+    <div className="pixelart-to-css" />
   </TopPageStyled>
 );
 

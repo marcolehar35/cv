@@ -4,6 +4,7 @@ import theme from 'src/styles/theme';
 
 const TopPageStyled = styled.section`
   text-align: center;
+  padding-top: 2em;
 
   .nuage-1{
     position: relative;
@@ -80,13 +81,15 @@ to {
 h1{
   color: white;
   font-size: ${theme.fontSize.xl};
-  padding-bottom: 1em;
+  padding-top: 1em;
+  font-weight: bold;
  }
 
 @media all and (min-width: 890px) {
-   padding-top: 6em;
- 
+   padding-top: 8em;
+   
 }
+
 `;
 
 export default TopPageStyled;

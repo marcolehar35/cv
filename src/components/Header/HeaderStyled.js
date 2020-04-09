@@ -53,6 +53,7 @@ ul{
    text-align: none;
     position: fixed;
     width: 100%;
+    z-index: 10000;
     nav{
       display: flex; 
       align-items: center;
