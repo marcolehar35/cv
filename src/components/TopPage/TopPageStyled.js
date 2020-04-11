@@ -78,6 +78,14 @@ to {
   margin-right: 0.5em;
   z-index: 2;
 }
+
+#title{
+  color: white;
+  font-size: ${theme.fontSize.l};
+  padding-top: 1em;
+  font-weight: bold;
+}
+
 h1{
   color: white;
   font-size: ${theme.fontSize.xl};
