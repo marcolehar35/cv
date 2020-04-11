@@ -14,8 +14,10 @@ const App = () => (
   <AppStyled>
     <Header />
     <TopPage />
-    <Exp />
-    <Skills />
+    <main>
+      <Exp />
+      <Skills />
+    </main>
   </AppStyled>
 );
 

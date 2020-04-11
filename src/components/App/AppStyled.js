@@ -5,6 +5,19 @@ import theme from 'src/styles/theme';
 const AppStyled = styled.div`
 background-color: ${theme.colors.back};
 
+
+@media all and (min-width: 890px) {
+   
+  main{
+  display: flex; 
+
+  section{
+    width: 50%;
+  }
+
+}
+  
+ }
 `;
 
 export default AppStyled;
