@@ -4,18 +4,22 @@ import theme from 'src/styles/theme';
 
 const RecommendationStyled = styled.footer`
 background-color: white;
-display: flex;
-padding: 1em 3em;
+width: 100%;
+z-index: 10;
 position: relative;
 bottom: 0;
-z-index: 10;
-width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1em;
+
 
 .card-name{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transform: translateX(20px);
 
   img{
   border-radius: 80%;
@@ -29,7 +33,7 @@ width: 100%;
   text-align: center;
   width: 10em;
 }
-padding: 0 1em;
+
 }
 
 p{
@@ -41,6 +45,8 @@ p{
   color: white; 
   font-weight: bold; 
   font-size: ${theme.fontSize.m};
+  transform: translateX(-20px);
+
 }
 
 #triangle{
@@ -48,14 +54,12 @@ p{
 border-top:20px solid transparent;
 border-bottom:20px solid transparent;
 border-right: 55px solid ${theme.colors.primary};
-position: absolute;
-z-index:5000;
-     left: 9.7em;
-
+position: relative;
+transform: translateY(-15px) translateX(-20px);
  }
 
 @media all and (min-width: 890px) {
-  position: fixed;
+
   
  }
 `;
