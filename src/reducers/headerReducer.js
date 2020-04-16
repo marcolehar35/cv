@@ -15,7 +15,7 @@ const initialState = {
 };
 
 // Reducer
-const demoReducer = (state = initialState, action = {}) => {
+const headerReducer = (state = initialState, action = {}) => {
   switch (action.type) {
     case SELECTED_DEV_WEB_PAGE:
       return {
@@ -58,4 +58,4 @@ const demoReducer = (state = initialState, action = {}) => {
   }
 };
 
-export default demoReducer;
+export default headerReducer;

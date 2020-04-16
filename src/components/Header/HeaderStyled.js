@@ -24,7 +24,7 @@ ul{
   text-align: left;
 
   .icons{
-    display: none;
+    visibility: hidden;
     height: 0.8em;
   }
   
@@ -34,9 +34,8 @@ ul{
 
     &:hover{
       color: ${theme.colors.activ};
-      padding: 0.25em 0em;
       .icons{
-        display: inline;
+        visibility: visible;
       }
     }
   }
@@ -44,9 +43,8 @@ ul{
 
 .activ{
       color: ${theme.colors.activ};
-      padding: 0.25em 0em;
       .icons{
-        display: inline;
+        visibility: visible;
       }
   }
  @media all and (min-width: 890px) {

@@ -10,7 +10,7 @@ const TopPageStyled = styled.section`
     position: relative;
     height: 4em;
     transform: translateX(40px) translateY(-100px);
-    z-index: 1;
+    z-index: 0;
     animation-duration: 15s;
     animation-timing-function: linear;
     animation-name: nuage1;
@@ -76,9 +76,43 @@ to {
   border-radius: 80%;
   height: 10em;
   margin-right: 0.5em;
-  z-index: 2;
+  z-index: 0;
 }
 
+
+.tooltip:hover .tooltiptext{
+  visibility: visible;
+  border: 10px solid ${theme.colors.primary},
+}
+
+
+.tooltiptext{
+  position: absolute;
+  display:inline-block;
+  visibility: hidden;
+  border-radius: 1em; 
+  padding: 1em; 
+  background-color: ${theme.colors.primary};
+  color: white; 
+  opacity: 0.9;
+  font-weight: bold;
+  font-size: ${theme.fontSize.m};
+  text-justify: auto;
+  line-break: strict;
+  white-space: pre-line;
+}
+
+.triangle{
+    border-top:20px solid transparent;
+border-bottom:1px solid transparent;
+border-right: 90px solid ${theme.colors.primary};
+transform: rotate(-43deg);
+position: absolute;
+left: -59px;
+top: 30px;
+z-index: 99999;
+
+  }
 #title{
   color: white;
   font-size: ${theme.fontSize.l};

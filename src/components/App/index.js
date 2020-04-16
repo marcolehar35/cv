@@ -4,7 +4,7 @@ import React from 'react';
 // == Import
 import Header from 'src/containers/Header';
 import './reset.css';
-import TopPage from 'src/components/TopPage';
+import TopPage from 'src/containers/TopPage';
 import Skills from 'src/components/Skills';
 import Exp from 'src/components/Exp';
 import Recommendation from 'src/components/Recommendation';
