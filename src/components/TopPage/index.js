@@ -8,7 +8,7 @@ import nuage from 'src/assets/images/nuage2.png';
 import Emoji from 'react-emoji-render';
 import TopPageStyled from './TopPageStyled';
 
-const data = [
+const dataHobbies = [
   'Bonjour, vous allez bien ? :)',
   'Vous êtes sur chrome et vous souhaitez voir mes emojis :eye: ? \n Chromoji fait des miracles :heart_eyes: !',
   'Ce week end, je vais faire un peu de musculation :weight_lifter:. \n Bon, je débute... :muscle:.',
@@ -21,13 +21,17 @@ const data = [
 
 
 // == Composant
-const TopPage = ({ changeTooltipHobbyAction, hobby, count, changeCountAction }) => {
-
+const TopPage = ({
+  changeTooltipHobbyAction,
+  hobby,
+  count,
+  changeCountAction,
+}) => {
   const mouse = () => {
-    const hobbyOrdered = data[count];
+    const hobbyOrdered = dataHobbies[count];
     changeTooltipHobbyAction(hobbyOrdered);
     let setCount = count + 1;
-    if (setCount < data.length) {
+    if (setCount < dataHobbies.length) {
       changeCountAction(setCount);
     }
     else {

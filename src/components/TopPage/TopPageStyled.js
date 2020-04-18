@@ -5,6 +5,7 @@ import theme from 'src/styles/theme';
 const TopPageStyled = styled.section`
   text-align: center;
   padding-top: 2em;
+  background-color: ${theme.colors.back};
 
   .nuage-1{
     position: relative;

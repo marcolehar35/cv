@@ -7,11 +7,10 @@ background-color: white;
 width: 100%;
 z-index: 10;
 position: relative;
-bottom: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 1em;
+padding: 2em 2em 0 2em;
 
 
 .card-name{

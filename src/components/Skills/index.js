@@ -30,7 +30,7 @@ const Skills = () => {
         animation: 'blinker 3s linear infinite',
         animationDelay: `${Math.random() * 2}s`,
         fontSize: `${size / 2}em`,
-        'border-radius': '1em',
+        'border-radius': '16px',
         border: `2px solid ${color}`,
         margin: '5px',
         padding: '10px',
