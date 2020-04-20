@@ -3,9 +3,9 @@ export default {
   picture: 'src/assets/images/avatar.jpg',
   location: 'Tahiti',
   contact: 'lehartel.com@gmail.com',
-  jobs: [
+  listJobs: [
     {
-      job: 'Développeur web',
+      title: 'Développeur web',
       cv: [
         {
           name: 'Expériences',
@@ -103,11 +103,11 @@ export default {
       ],
     },
     {
-      job: 'Chargé de communication',
+      title: 'Chargé de communication',
       cv: [],
     },
     {
-      job: 'Community Manager',
+      title: 'Community Manager',
       cv: [],
     },
   ],

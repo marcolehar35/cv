@@ -9,6 +9,7 @@ import Header from 'src/containers/Header';
 import './reset.css';
 
 import DevWeb from 'src/components/DevWeb';
+import Job from 'src/components/Job';
 import Recommendation from 'src/components/Recommendation';
 import Carole from 'src/assets/images/Carole-LOISEL-SOYER.jpeg';
 import { ArrowLeft, ArrowRight } from 'react-feather';
@@ -23,7 +24,9 @@ const App = () => (
       {/* on peut passer la prop component avec le composant
           si on a pas de data à transmettre */}
       <Route exact path="/" component={DevWeb} />
-      <Route exact path="/developpeur-web" component={DevWeb} />
+
+      {/* Route pour une page d'un job */}
+      <Route exact path="/:slug" component={Job} />
     </Switch>
     <CarouselProvider
       naturalSlideWidth={1}
