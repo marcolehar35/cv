@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 // Du composant qui a besoin de data ou d'actions
-import TopPage from 'src/components/TopPage';
+import TopPage from 'src/components/DevWeb/TopPage';
 
 // Action Creators
 import {
