@@ -102,10 +102,10 @@ const initialState = {
   learning: [
     {
       id: 1,
-      name: "O'Clock - spécialisation React",
-      place: 'Téléprésentiel',
+      name: "O'Clock - Spécialisation React:",
+      place: ' Téléprésentiel',
       period: 2020,
-      description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock  -  Formation  en  Téléprésentiel  -  Labellisée Grande Ecole du Numérique D'Octobre à Mars +700h intensives -> 3 mois de Socle: HTML5/CSS3/PHP/Javascript -> 1 mois de spécialisation - React -> 1 mois de projet Apothéose:  O'quests (en cours) -> Certification Opquast (en cours)",
+      description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock \n Formation  en  Téléprésentiel \n  Labellisée Grande Ecole du Numérique D'Octobre à Mars +700h intensives \n -> 3 mois de Socle: HTML5/CSS3/PHP/Javascript \n-> 1 mois de spécialisation - React \n-> 1 mois de projet Apothéose:  O'quests (en cours) \n-> Certification Opquast (en cours)",
     },
   ],
 };

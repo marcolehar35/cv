@@ -10,7 +10,7 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 2em 2em 0 2em;
+padding: 2em 2em 0em 2em;
 
 
 .card-name{

@@ -7,7 +7,7 @@ import SkillsStyled from './SkillsStyled';
 
 // == Composant
 const Skills = ({ skills, titleSkills }) => (
-  <SkillsStyled>
+  <SkillsStyled className="width50">
     <h2> {titleSkills} </h2>
     {skills.map((skill) => (<CardSkills key={skills.id} {...skill} />))}
   </SkillsStyled>

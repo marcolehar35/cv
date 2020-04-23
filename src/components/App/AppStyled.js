@@ -4,7 +4,7 @@ import theme from 'src/styles/theme';
 
 const AppStyled = styled.div`
 background-color: white;
-line-height: 1.4em;
+line-height: 1.6em;
 
 
 main{
@@ -13,7 +13,7 @@ main{
 
 
 .slider{
-    height: 11em;
+    height: 12rem;
     
   }
 
@@ -41,8 +41,9 @@ main{
    
   main{
   display: flex; 
+  flex-wrap: wrap;
 
-  section{
+  .width50{
     width: 50%;
   }
 
