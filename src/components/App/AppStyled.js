@@ -4,7 +4,7 @@ import theme from 'src/styles/theme';
 
 const AppStyled = styled.div`
 background-color: white;
-line-height: 1.6em;
+line-height: 2em;
 
 
 main{
@@ -13,7 +13,7 @@ main{
 
 
 .slider{
-    height: 22rem;
+    height: 25rem;
     
   }
 
@@ -49,7 +49,7 @@ main{
 
 }
 .slider{
-    height: 12rem;
+    height: 13rem;
     
   }
 

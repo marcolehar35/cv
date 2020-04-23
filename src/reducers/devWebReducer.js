@@ -13,7 +13,7 @@ const initialState = {
       name: 'Développeur React: ',
       place: " Ecole O'clock - Téléprésentiel",
       period: '2020',
-      description: "Apothéose : Création d'un projet en équipe. \n Période de brainstorming, de conception, de développement, et de recettage.",
+      description: "Apothéose : Création d'un projet en équipe. \n Période de brainstorming, de conception, de développement, et de recettage. \n Technologies utilisées : \n ✨ React pour la partie Front. \n ✨ Symfony pour la partie Back. (API) \n ✨ Axios pour les requêtes API. \n ✨ React-router pour la navigation. \n ✨ Redux pour la gestion de state. \n ✨ React-router-pour les redirections. \n ✨ Classnames pour faciliter l'affichage CSS de certaines parties du site. \n ✨ Yarn en gestionnaire de paquet. \n ✨ Webpack en compileur. \n ✨ Prop-types pour la validation de donnée",
     },
   ],
   titleSkills: 'Compétences',
@@ -105,7 +105,7 @@ const initialState = {
       name: "O'Clock - Spécialisation React:",
       place: ' Téléprésentiel',
       period: 2020,
-      description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock \n Formation  en  Téléprésentiel \n  Labellisée Grande Ecole du Numérique D'Octobre à Mars +700h intensives \n -> 3 mois de Socle: HTML5/CSS3/PHP/Javascript \n-> 1 mois de spécialisation - React \n-> 1 mois de projet Apothéose:  O'quests (en cours) \n-> Certification Opquast (en cours)",
+      description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock \n Formation  en  Téléprésentiel \n  Labellisée Grande Ecole du Numérique +700h intensives  \n Octobre à Mars \n ✨ 3 mois de Socle: HTML5/CSS3/PHP/Javascript \n✨ 1 mois de spécialisation - React \n✨ 1 mois de projet Apothéose:  O'quests \n✨ Certification Opquast (en cours)",
     },
   ],
 };

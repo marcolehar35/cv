@@ -41,7 +41,7 @@ p{
   border-radius: 1em;
   background-color: ${theme.colors.primary}; 
   padding: 1em;
-  height: 9rem;
+  height: 9em;
   color: white; 
   font-weight: bold; 
   font-size: ${theme.fontSize.m};
