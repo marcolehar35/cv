@@ -1,14 +1,29 @@
 // == Import npm
+import PropTypes from 'prop-types';
 import React from 'react';
 
+import addLineBreaks from 'src/utili/utilitaire';
 import CardExpStyled from './CardExpStyled';
 // == Composant
-const CardExp = () => (
+const CardExp = ({
+  name,
+  place,
+  period,
+  description,
+}) => (
   <CardExpStyled>
-    <h3><strong>Nom du Poste</strong> - Lieu du Poste</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, assumenda quos. Vero dicta officiis distinctio ea eveniet nobis, optio quis animi accusamus totam quos quo nulla quisquam a molestias delectus voluptatum ducimus neque. Asperiores, necessitatibus. Architecto optio possimus delectus. Libero!</p>
+    <h4>{period}</h4>
+    <h3><strong> {name} </strong> {place} </h3>
+    <p> {addLineBreaks(description)}</p>
   </CardExpStyled>
 );
+
+CardExp.propTypes = {
+  description: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  period: PropTypes.string.isRequired,
+  place: PropTypes.string.isRequired,
+};
 
 
 // == CardExport

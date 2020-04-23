@@ -10,17 +10,17 @@ const initialState = {
   experiences: [
     {
       id: 1,
-      name: 'Développeur React',
-      place: "Ecole O'clock - Téléprésentiel",
+      name: 'Développeur React: ',
+      place: " Ecole O'clock - Téléprésentiel",
       period: '2020',
-      description: "Apothéose : Création d'un projet en équipe.Période de brainstorming, de conception, de développement, et de recettage.",
+      description: "Apothéose : Création d'un projet en équipe. \n Période de brainstorming, de conception, de développement, et de recettage.",
     },
   ],
   titleSkills: 'Compétences',
   skills: [
     {
       id: 1,
-      titleSkill: 'Rédaction',
+      titleSkill: 'Rédactionnelles',
       underSkills: [
         {
           id: 1,
@@ -31,7 +31,7 @@ const initialState = {
     },
     {
       id: 2,
-      titleSkill: 'Organisation',
+      titleSkill: 'Organisationnelles',
       underSkills: [
         {
           id: 1,
@@ -96,16 +96,16 @@ const initialState = {
           count: 1,
         },
       ],
-      titleFormation: 'Formation',
-      learning: [
-        {
-          id: 1,
-          name: "O'Clock - spécialisation React",
-          place: 'Téléprésentiel',
-          period: 2020,
-          description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock  -  Formation  en  Téléprésentiel  -  Labellisée Grande Ecole du Numérique D'Octobre à Mars +700h intensives -> 3 mois de Socle: HTML5/CSS3/PHP/Javascript -> 1 mois de spécialisation - React -> 1 mois de projet Apothéose:  O'quests (en cours) -> Certification Opquast (en cours)",
-        },
-      ],
+    },
+  ],
+  titleFormation: 'Formation',
+  learning: [
+    {
+      id: 1,
+      name: "O'Clock - spécialisation React",
+      place: 'Téléprésentiel',
+      period: 2020,
+      description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock  -  Formation  en  Téléprésentiel  -  Labellisée Grande Ecole du Numérique D'Octobre à Mars +700h intensives -> 3 mois de Socle: HTML5/CSS3/PHP/Javascript -> 1 mois de spécialisation - React -> 1 mois de projet Apothéose:  O'quests (en cours) -> Certification Opquast (en cours)",
     },
   ],
 };

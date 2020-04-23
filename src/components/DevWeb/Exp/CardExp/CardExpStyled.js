@@ -9,6 +9,12 @@ const ExpStyled = styled.div`
     margin: 1em;
     border-radius: 1em;
 
+  h4{
+    font-size: ${theme.fontSize.l};
+    color: ${theme.colors.primary};
+    font-weight: 550;
+  }
+
   h3{
     font-size: ${theme.fontSize.l};
     padding: 1em 1em 1em 2em;
@@ -18,6 +24,9 @@ const ExpStyled = styled.div`
     }
   }
   
+  p{
+    font-size: ${theme.fontSize.m};
+  }
 `;
 
 export default ExpStyled;
