@@ -13,14 +13,14 @@ main{
 
 
 .slider{
-    height: 12rem;
+    height: 22rem;
     
   }
 
 #buttonsContainer{
   display: flex;
   justify-content: space-between;
-  transform: translateY(-100px);
+  transform: translateY(-225px);
 
 .buttons{
   background-color: white;
@@ -48,8 +48,15 @@ main{
   }
 
 }
-  
-  
+.slider{
+    height: 12rem;
+    
+  }
+
+  #buttonsContainer{
+  transform: translateY(-100px);
+
+}
   
  }
 `;

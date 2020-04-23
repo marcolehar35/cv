@@ -8,6 +8,7 @@ width: 100%;
 z-index: 10;
 position: relative;
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 2em 2em 0em 2em;
@@ -40,15 +41,19 @@ p{
   border-radius: 1em;
   background-color: ${theme.colors.primary}; 
   padding: 1em;
-  height: 6em;
+  height: 9rem;
   color: white; 
   font-weight: bold; 
   font-size: ${theme.fontSize.m};
-  transform: translateX(-20px);
 
 }
 
-#triangle{
+
+
+@media all and (min-width: 890px) {
+  flex-direction: row;
+
+  #triangle{
 
 border-top:20px solid transparent;
 border-bottom:20px solid transparent;
@@ -57,8 +62,10 @@ position: relative;
 transform: translateY(-15px) translateX(-20px);
  }
 
-@media all and (min-width: 890px) {
+ p{
+  transform: translateX(-20px);
 
+}
   
  }
 `;
