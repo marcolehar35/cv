@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import theme from 'src/styles/theme';
 
-const ExpStyled = styled.div`
+const FormationCardStyled = styled.div`
     background-color: ${theme.colors.card};
     text-align: left;
     padding: 1em; 
@@ -29,4 +29,4 @@ const ExpStyled = styled.div`
   }
 `;
 
-export default ExpStyled;
+export default FormationCardStyled;

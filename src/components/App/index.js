@@ -8,7 +8,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import Header from 'src/containers/Header';
 import './reset.css';
 
-import DevWeb from 'src/components/DevWeb';
+import DevWeb from 'src/containers/DevWeb/DevWeb';
 import Recommendation from 'src/components/Recommendation';
 import Carole from 'src/assets/images/Carole-LOISEL-SOYER.jpeg';
 import { ArrowLeft, ArrowRight } from 'react-feather';

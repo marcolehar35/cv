@@ -3,22 +3,22 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import addLineBreaks from 'src/utili/utilitaire';
-import CardExpStyled from './CardExpStyled';
+import FormationCardStyled from './FormationCardStyled';
 // == Composant
-const CardExp = ({
+const FormationCard = ({
   name,
   place,
   period,
   description,
 }) => (
-  <CardExpStyled>
+  <FormationCardStyled>
     <h4>{period}</h4>
     <h3><strong> {name} </strong> {place} </h3>
     <p> {addLineBreaks(description)}</p>
-  </CardExpStyled>
+  </FormationCardStyled>
 );
 
-CardExp.propTypes = {
+FormationCard.propTypes = {
   description: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   period: PropTypes.string.isRequired,
@@ -26,5 +26,5 @@ CardExp.propTypes = {
 };
 
 
-// == CardExport
-export default CardExp;
+// == FormationCardort
+export default FormationCard;

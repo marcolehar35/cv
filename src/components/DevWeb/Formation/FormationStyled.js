@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import theme from 'src/styles/theme';
 
-const SkillsStyled = styled.section`
+const FormationStyled = styled.section`
   text-align: center;
   padding: 1em;
 
@@ -16,6 +16,7 @@ const SkillsStyled = styled.section`
     margin: 1em; 
   }
 
+  
 `;
 
-export default SkillsStyled;
+export default FormationStyled;

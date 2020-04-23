@@ -5,7 +5,7 @@ import { ThumbsUp } from 'react-feather';
 
 import avatarDrawn from 'src/assets/images/avatarDrawn.png';
 import nuage from 'src/assets/images/nuage2.png';
-import Emoji from 'react-emoji-render';
+import addLineBreaks from 'src/utili/utilitaire';
 import TopPageStyled from './TopPageStyled';
 
 const dataHobbies = [
@@ -39,13 +39,6 @@ const TopPage = ({
       changeCountAction(setCount);
     }
   };
-
-  const addLineBreaks = (string) => string.split('\n').map((text) => (
-    <React.Fragment key={`${text}`}>
-      <Emoji text={text} />
-      <br />
-    </React.Fragment>
-  ));
 
   return (
     <TopPageStyled>

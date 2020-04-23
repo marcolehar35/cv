@@ -101,6 +101,7 @@ to {
   text-justify: auto;
   line-break: strict;
   white-space: pre-line;
+  z-index: 99999;
 }
 
 .triangle{
@@ -112,8 +113,8 @@ position: absolute;
 left: -59px;
 top: 30px;
 z-index: 99999;
+}
 
-  }
 #title{
   color: white;
   font-size: ${theme.fontSize.l};

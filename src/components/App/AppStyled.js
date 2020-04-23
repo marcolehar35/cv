@@ -4,7 +4,7 @@ import theme from 'src/styles/theme';
 
 const AppStyled = styled.div`
 background-color: white;
-line-height: 1.4em;
+line-height: 1.6em;
 
 
 main{
@@ -13,14 +13,14 @@ main{
 
 
 .slider{
-    height: 11em;
+    height: 22rem;
     
   }
 
 #buttonsContainer{
   display: flex;
   justify-content: space-between;
-  transform: translateY(-100px);
+  transform: translateY(-225px);
 
 .buttons{
   background-color: white;
@@ -41,14 +41,22 @@ main{
    
   main{
   display: flex; 
+  flex-wrap: wrap;
 
-  section{
+  .width50{
     width: 50%;
   }
 
 }
-  
-  
+.slider{
+    height: 12rem;
+    
+  }
+
+  #buttonsContainer{
+  transform: translateY(-100px);
+
+}
   
  }
 `;
