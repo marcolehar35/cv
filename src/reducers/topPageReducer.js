@@ -6,7 +6,7 @@ import {
 
 // Initial State
 const initialState = {
-  hobby: 'test',
+  hobby: '',
   count: 0,
 };
 
