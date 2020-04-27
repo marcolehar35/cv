@@ -13,6 +13,8 @@ const mapStateToProps = (state) => ({
   skills: state.devWeb.skills,
   titleFormation: state.devWeb.titleFormation,
   learning: state.devWeb.learning,
+  titlePortfolio: state.devWeb.titlePorfolio,
+  projets: state.devWeb.projets,
 });
 
 // == Actions / dispatch

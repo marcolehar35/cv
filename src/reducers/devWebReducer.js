@@ -1,3 +1,6 @@
+import chatRoom from 'src/assets/images/portfolio/chatRoom.gif';
+import recipes from 'src/assets/images/portfolio/recipes.gif';
+import todoList from 'src/assets/images/portfolio/todoList.gif';
 
 // Initial State
 const initialState = {
@@ -105,7 +108,30 @@ const initialState = {
       name: "O'Clock - Spécialisation React:",
       place: ' Téléprésentiel',
       period: 2020,
-      description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock \n Formation  en  Téléprésentiel \n  Labellisée Grande Ecole du Numérique +700h intensives  \n Octobre à Mars \n ✨ 3 mois de Socle: HTML5/CSS3/PHP/Javascript \n✨ 1 mois de spécialisation - React \n✨ 1 mois de projet Apothéose:  O'quests \n✨ Certification Opquast (en cours)",
+      description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock \n Formation  en  Téléprésentiel \n  Labellisée Grande Ecole du Numérique +700h intensives  \n Octobre à Mars \n ✨ 3 mois de Socle: HTML5/CSS3/PHP/Javascript \n✨ 1 mois de Spécialisation - React \n✨ 1 mois de projet Apothéose:  O'quests \n✨ Certification Opquast (en cours)",
+    },
+  ],
+  titlePorfolio: 'Mon Portfolio',
+  projets: [
+    {
+      id: 1,
+      name: 'Todolist avec React / JS',
+      gifSiteWeb: todoList,
+    },
+    {
+      id: 2,
+      name: 'ChatRoom avec React',
+      gifSiteWeb: chatRoom,
+    },
+    {
+      id: 3,
+      name: 'Recipe avec React',
+      gifSiteWeb: recipes,
+    },
+    {
+      id: 4,
+      name: 'CV avec React',
+      gifSiteWeb: '',
     },
   ],
 };

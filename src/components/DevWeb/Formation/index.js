@@ -15,10 +15,15 @@ const Formation = ({ learning, titleFormation }) => (
 );
 
 Formation.propTypes = {
-  Formationeriences: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    map: PropTypes.func.isRequired,
-  }).isRequired,
+  learning: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      description: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      period: PropTypes.number.isRequired,
+      place: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
   titleFormation: PropTypes.string.isRequired,
 };
 

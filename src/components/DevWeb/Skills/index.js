@@ -14,10 +14,13 @@ const Skills = ({ skills, titleSkills }) => (
 );
 
 Skills.propTypes = {
-  skills: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    map: PropTypes.func.isRequired,
-  }).isRequired,
+  skills: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      titleSkill: PropTypes.string.isRequired,
+      underSkills: PropTypes.array.isRequired,
+    }),
+  ).isRequired,
   titleSkills: PropTypes.string.isRequired,
 };
 

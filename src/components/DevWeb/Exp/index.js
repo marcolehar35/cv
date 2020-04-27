@@ -15,10 +15,15 @@ const Exp = ({ experiences, titleExp }) => (
 );
 
 Exp.propTypes = {
-  experiences: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    map: PropTypes.func.isRequired,
-  }).isRequired,
+  experiences: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      description: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      period: PropTypes.string.isRequired,
+      place: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
   titleExp: PropTypes.string.isRequired,
 };
 

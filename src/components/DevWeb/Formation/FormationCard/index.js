@@ -21,7 +21,7 @@ const FormationCard = ({
 FormationCard.propTypes = {
   description: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  period: PropTypes.string.isRequired,
+  period: PropTypes.number.isRequired,
   place: PropTypes.string.isRequired,
 };
 
