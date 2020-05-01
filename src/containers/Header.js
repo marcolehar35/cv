@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 // Du composant qui a besoin de data ou d'actions
-import Header from 'src/components/Header';
+import Header from 'src/components/global/Header';
 
 // Action Creators
 import {
@@ -9,12 +9,14 @@ import {
   selectedComPage,
   selectedCMPage,
   selectedContactPage,
+  selectedFolioPage,
 } from 'src/actions/headerAction';
 
 // == Data / state
 // Notre composant à besoin de données depuis le state ?
 // On prépare un objet avec les props attendues par le composant
 const mapStateToProps = (state) => ({
+  activCssFolioPage: state.header.activCssFolioPage,
   activCssDevWebPage: state.header.activCssDevWebPage,
   activCssCommunicationPage: state.header.activCssCommunicationPage,
   activCssCMPage: state.header.activCssCMPage,
@@ -25,6 +27,9 @@ const mapStateToProps = (state) => ({
 // Notre composant à besoin d'agir sur le state ?
 // On prépare un objet avec les props attendues par le composant
 const mapDispatchToProps = (dispatch) => ({
+  selectedFolioPageAction: () => {
+    dispatch(selectedFolioPage());
+  },
   selectedDevWebPageAction: () => {
     dispatch(selectedDevWebPage());
   },
@@ -34,9 +39,10 @@ const mapDispatchToProps = (dispatch) => ({
   selectedCMPageAction: () => {
     dispatch(selectedCMPage());
   },
-  selectedContactPagAction: () => {
+  selectedContactPageAction: () => {
     dispatch(selectedContactPage());
   },
+
 });
 
 // création du lien : container

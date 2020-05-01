@@ -1,6 +1,6 @@
-import chatRoom from 'src/assets/images/portfolio/chatRoom.gif';
-import recipes from 'src/assets/images/portfolio/recipes.gif';
-import todoList from 'src/assets/images/portfolio/todoList.gif';
+import chatRoom from 'src/assets/images/devfolio/chatRoom.gif';
+import recipes from 'src/assets/images/devfolio/recipes.gif';
+import todoList from 'src/assets/images/devfolio/todoList.gif';
 
 // Initial State
 const initialState = {
@@ -10,9 +10,10 @@ const initialState = {
   contact: 'lehartel.com@gmail.com',
   job: 'Développeur web',
   titleExp: 'Expériences',
+  titleTopPage: 'Que la programmation soit avec nous',
   experiences: [
     {
-      id: 1,
+      id: 0,
       name: 'Développeur React: ',
       place: " Ecole O'clock - Téléprésentiel",
       period: '2020',
@@ -22,79 +23,79 @@ const initialState = {
   titleSkills: 'Compétences',
   skills: [
     {
-      id: 1,
+      id: 0,
       titleSkill: 'Rédactionnelles',
       underSkills: [
         {
-          id: 1,
+          id: 0,
           underSkill: 'Cahier des charges',
           count: 1,
         },
       ],
     },
     {
-      id: 2,
+      id: 1,
       titleSkill: 'Organisationnelles',
       underSkills: [
         {
-          id: 1,
+          id: 0,
           underSkill: 'Gestion de projet',
           count: 1,
         },
       ],
     },
     {
-      id: 3,
+      id: 2,
       titleSkill: 'Analytiques',
       underSkills: [
         {
-          id: 1,
+          id: 0,
           underSkill: 'Veille technologique / Développement',
           count: 1,
         },
         {
-          id: 2,
+          id: 1,
           underSkill: "Conceptualisation d'un site web",
           count: 2,
         },
       ],
     },
     {
-      id: 4,
+      id: 3,
       titleSkill: 'Techniques',
       underSkills: [
         {
-          id: 1,
+          id: 0,
           underSkill: 'React & Redux',
           count: 3,
         },
         {
-          id: 2,
+          id: 1,
           underSkill: 'React & Hooks',
           count: 3,
         },
         {
-          id: 3,
+          id: 2,
           underSkill: 'Javascript',
           count: 2,
         },
         {
-          id: 4,
+          id: 3,
           underSkill: 'jQuery',
           count: 2,
         },
         {
-          id: 5,
+          id: 4,
           underSkill: 'HTML5',
           count: 2,
         },
         {
-          id: 6,
+          id: 5,
           underSkill: 'CSS3',
           count: 2,
         },
         {
-          id: 7,
+          id: 6,
           underSkill: 'PHP',
           count: 1,
         },
@@ -104,34 +105,38 @@ const initialState = {
   titleFormation: 'Formation',
   learning: [
     {
-      id: 1,
+      id: 0,
       name: "O'Clock - Spécialisation React:",
       place: ' Téléprésentiel',
       period: 2020,
       description: "Titre Professionnel Développeur Web et Web Mobile Niveau III O'clock \n Formation  en  Téléprésentiel \n  Labellisée Grande Ecole du Numérique +700h intensives  \n Octobre à Mars \n ✨ 3 mois de Socle: HTML5/CSS3/PHP/Javascript \n✨ 1 mois de Spécialisation - React \n✨ 1 mois de projet Apothéose:  O'quests \n✨ Certification Opquast (en cours)",
     },
   ],
-  titlePorfolio: 'Mon Portfolio',
+  titlePorfolio: 'DevFolio',
   projets: [
     {
-      id: 1,
+      id: 0,
       name: 'Todolist avec React / JS',
-      gifSiteWeb: todoList,
+      projet: todoList,
+      link: 'https://github.com/marcolehar35/todolist-react',
+    },
+    {
+      id: 1,
+      name: 'ChatRoom avec React',
+      projet: chatRoom,
+      link: 'https://github.com/marcolehar35/chatroom ',
     },
     {
       id: 2,
-      name: 'ChatRoom avec React',
-      gifSiteWeb: chatRoom,
+      name: 'Recipe avec React',
+      projet: recipes,
+      link: 'https://github.com/marcolehar35/recipe ',
     },
     {
       id: 3,
-      name: 'Recipe avec React',
-      gifSiteWeb: recipes,
-    },
-    {
-      id: 4,
       name: 'CV avec React',
-      gifSiteWeb: '',
+      projet: '',
+      link: 'https://github.com/marcolehar35/cv',
     },
   ],
 };

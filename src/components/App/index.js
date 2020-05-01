@@ -1,15 +1,23 @@
 // == Import npm
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 // == Import
 import Header from 'src/containers/Header';
 import './reset.css';
 
-import DevWeb from 'src/containers/DevWeb/DevWeb';
-import Recommendation from 'src/components/Recommendation';
+import DevWeb from 'src/containers/DevWeb';
+import PortFolioPage from 'src/containers/PortFolioPage';
+import ChargeCom from 'src/containers/ChargeCom';
+import Recommendation from 'src/components/global/Recommendation';
 import Carole from 'src/assets/images/Carole-LOISEL-SOYER.jpeg';
 import { ArrowLeft, ArrowRight } from 'react-feather';
 import AppStyled from './AppStyled';
@@ -23,7 +31,9 @@ const App = () => (
       {/* on peut passer la prop component avec le composant
           si on a pas de data à transmettre */}
       <Route exact path="/" component={DevWeb} />
+      <Route exact path="/portfolio" component={PortFolioPage} />
       <Route exact path="/developpeur-web" component={DevWeb} />
+      <Route exact path="/charge-de-communication" component={ChargeCom} />
     </Switch>
     <CarouselProvider
       naturalSlideWidth={1}

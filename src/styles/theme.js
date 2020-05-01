@@ -1,8 +1,9 @@
 export default {
   fontSize: {
-    xl: '1.6em',
-    l: '1.438em',
-    m: '1.188em',
+    xxl: '1.6em',
+    xl: '1.438em',
+    l: '1.188em',
+    m: '1.em',
   },
   colors: {
     back: '#0BC9CD',
