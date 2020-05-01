@@ -20,11 +20,9 @@ const Header = (
     activCssFolioPage,
     activCssDevWebPage,
     activCssCommunicationPage,
-    activCssContactPage,
     selectedFolioPageAction,
     selectedDevWebPageAction,
     selectedComPageAction,
-    selectedContactPageAction,
   },
 ) => {
   const classCssFolioPage = classNames({
@@ -35,9 +33,6 @@ const Header = (
   });
   const classCssCommunicationPage = classNames({
     activ: activCssCommunicationPage,
-  });
-  const classCssContactPage = classNames({
-    activ: activCssContactPage,
   });
   return (
     <HeaderStyled>
@@ -63,7 +58,7 @@ const Header = (
             </Link>
           </li>
 
-          <li className={classCssContactPage} onClick={() => selectedContactPageAction()}>
+          <li>
             <a href="http://linkedin.com/in/marc-lehartel/"> <Linkedin className="icons" /> Linkedin</a>
           </li>
 

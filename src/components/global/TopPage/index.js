@@ -12,7 +12,7 @@ const dataHobbies = [
   'Bonjour, vous allez bien ? :)',
   'Vous êtes sur chrome et vous souhaitez voir mes emojis :eye: ? \n Chromoji fait des miracles :heart_eyes: !',
   'Ce week end, je vais faire un peu de musculation :weight_lifter:. \n Bon, je débute... :muscle:.',
-  "Ce soir, on se fait une partie de :joker: poker :joker: :grinning_face_with_smiling_eyes:. \n  Ne bous inquiétez pas, il m'arrive de perdre :dizzy_face:.",
+  "Ce soir, on se fait une partie de :joker: poker :joker: :grinning_face_with_smiling_eyes:. \n  Ne vous inquiétez pas, il m'arrive de perdre :dizzy_face:.",
   "On dit que le S..:underage: c'est bon, mais que le poker dure plus longtemps :winking_face_with_tongue:.",
   "Tous les ans, j'aime participer à la maraude :helmet_with_white_cross: :handshake: pour les SDF avec des amis. \n  Vous souhaitez y participer ?",
   "J'apprécie les jeux de réflexions :thinking_face: : les échecs :chess_pawn:, les jeux de plateau :game_die:, les jeux en ligne :trackball:, les jeux vidéos :video_game:, Code Combat, Coding Game... \n  Lequel vous préférez ?", "J'aime suivre l'actualité économique :chart_with_upwards_trend:, les innovations technologiques :bulb: et les découvertes scientifiques.",

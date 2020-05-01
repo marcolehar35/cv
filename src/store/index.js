@@ -14,9 +14,6 @@ const enhancers = composeWithDevTools(
   ),
 );
 
-const store = createStore(
-  rootReducer,
-  enhancers,
-);
+const store = createStore(rootReducer, enhancers);
 
 export default store;

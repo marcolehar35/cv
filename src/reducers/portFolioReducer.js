@@ -1,6 +1,7 @@
 import chatRoom from 'src/assets/images/devfolio/chatRoom.gif';
 import recipes from 'src/assets/images/devfolio/recipes.gif';
 import todoList from 'src/assets/images/devfolio/todoList.gif';
+import cv from 'src/assets/images/devfolio/cvreact.gif';
 import tiareTahiti from 'src/assets/images/comfolio/affiche-Tiare-Tahiti.jpg';
 import carteInvitation from 'src/assets/images/comfolio/carte-invitation.jpg';
 import magInterne from 'src/assets/images/comfolio/magazine-interne.jpg';
@@ -39,7 +40,7 @@ const initialState = {
     {
       id: 3,
       name: 'CV avec React',
-      projet: '',
+      projet: cv,
       link: 'https://github.com/marcolehar35/cv',
     },
   ],

@@ -1,6 +1,7 @@
 import chatRoom from 'src/assets/images/devfolio/chatRoom.gif';
 import recipes from 'src/assets/images/devfolio/recipes.gif';
 import todoList from 'src/assets/images/devfolio/todoList.gif';
+import cv from 'src/assets/images/devfolio/cvreact.gif';
 
 // Initial State
 const initialState = {
@@ -135,7 +136,7 @@ const initialState = {
     {
       id: 3,
       name: 'CV avec React',
-      projet: '',
+      projet: cv,
       link: 'https://github.com/marcolehar35/cv',
     },
   ],
