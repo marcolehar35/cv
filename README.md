@@ -2,7 +2,7 @@
 
 Réalisation d'un CV en ligne avec PortFolio. 
 
-Technos utilisés:
+Technos utilisées :
   - React
   - Redux
   - React-tag-cloud
