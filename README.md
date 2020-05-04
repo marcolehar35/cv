@@ -6,9 +6,9 @@ Technos utilisées :
   - React
   - Redux
   - React-tag-cloud
-  - react-feather
-  - react-emoji-render
-  - classnames
-  - prop-types
-  - react-emoji-render
-  - styled-components
+  - React-feather
+  - React-emoji-render
+  - Classnames
+  - Prop-types
+  - React-emoji-render
+  - Styled-components
