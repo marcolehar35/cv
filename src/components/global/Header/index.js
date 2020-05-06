@@ -71,10 +71,8 @@ const Header = (
 Header.propTypes = {
   activCssCommunicationPage: PropTypes.bool.isRequired,
   activCssFolioPage: PropTypes.bool.isRequired,
-  activCssContactPage: PropTypes.bool.isRequired,
   activCssDevWebPage: PropTypes.bool.isRequired,
   selectedComPageAction: PropTypes.func.isRequired,
-  selectedContactPageAction: PropTypes.func.isRequired,
   selectedDevWebPageAction: PropTypes.func.isRequired,
   selectedFolioPageAction: PropTypes.func.isRequired,
 };

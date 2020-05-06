@@ -37,7 +37,7 @@ const App = () => (
     </Switch>
     <CarouselProvider
       naturalSlideWidth={1}
-      naturalSlideHeight={1}
+      naturalSlideHeight={5}
       interval={10000}
       isPlaying
       infinite

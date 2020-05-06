@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { ThumbsUp } from 'react-feather';
 
-import avatarDrawn from 'src/assets/images/avatarDrawn.png';
+import avatarDrawn from 'src/assets/images/avatarDrawn.jpg';
 import nuage from 'src/assets/images/nuage2.png';
 import addLineBreaks from 'src/utili/utilitaire';
 import TopPageStyled from './TopPageStyled';

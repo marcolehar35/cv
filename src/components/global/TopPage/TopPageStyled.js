@@ -9,7 +9,7 @@ const TopPageStyled = styled.section`
 
   .nuage-1{
     position: relative;
-    height: 4em;
+    height: 3.4em;
     transform: translateX(40px) translateY(-100px);
     z-index: 0;
     animation-duration: 15s;
@@ -36,7 +36,7 @@ to {
 
   .nuage-2{
     position: relative;
-    height: 4em;
+    height: 3.7em;
     transform: translateX(-40px);
     z-index: 3;
     animation-duration: 15s;
@@ -82,7 +82,7 @@ to {
 
 
 .tooltip:hover .tooltiptext{
-  visibility: visible;
+  visibility: hidden;
   border: 10px solid ${theme.colors.primary},
 }
 
@@ -129,10 +129,20 @@ h1{
   font-weight: bold;
  }
 
+ @media all and (min-width: 768px) {
+   
+  .tooltip:hover .tooltiptext{
+  visibility: visible;
+  border: 10px solid ${theme.colors.primary},
+}
+   
+}
+
 @media all and (min-width: 890px) {
    padding-top: 9em;
    
 }
+
 
 `;
 

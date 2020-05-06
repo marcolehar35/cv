@@ -38,8 +38,8 @@ const CardSkills = ({ titleSkill, underSkills }) => {
       <h3><strong>{titleSkill}</strong></h3>
       <TagCloud
         id="tag-cloud"
-        minSize={3}
-        maxSize={5}
+        minSize={2}
+        maxSize={3}
         tags={underSkills}
         renderer={customRenderer}
       />

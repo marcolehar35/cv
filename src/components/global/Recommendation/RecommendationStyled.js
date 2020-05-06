@@ -41,13 +41,19 @@ p{
   border-radius: 1em;
   background-color: ${theme.colors.primary}; 
   padding: 1em;
-  height: 9em;
   color: white; 
+  height: 14em;
   font-weight: bold; 
   font-size: ${theme.fontSize.m};
-
 }
 
+@media all and (min-width: 425px) {
+
+ p{
+  height: 9em;
+}
+  
+ }
 
 
 @media all and (min-width: 890px) {
@@ -64,7 +70,7 @@ transform: translateY(-15px) translateX(-20px);
 
  p{
   transform: translateX(-20px);
-
+  height: 8em;
 }
   
  }

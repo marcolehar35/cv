@@ -13,14 +13,14 @@ main{
 
 
 .slider{
-    height: 25rem;
+    height: 27rem;
     
   }
 
 #buttonsContainer{
   display: flex;
   justify-content: space-between;
-  transform: translateY(-225px);
+  transform: translateY(-250px);
 
 .buttons{
   background-color: white;
@@ -34,6 +34,14 @@ main{
 
 }
 
+@media all and (min-width: 425px) {
+
+  .slider{
+    height: 24rem;
+    
+  }
+ 
+}
 
 
 
