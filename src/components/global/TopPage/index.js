@@ -15,7 +15,7 @@ const dataHobbies = [
   "Ce soir, on se fait une partie de :joker: poker :joker: :grinning_face_with_smiling_eyes:. \n  Ne vous inquiétez pas, il m'arrive de perdre :dizzy_face:.",
   "On dit que le S..:underage: c'est bon, mais que le poker dure plus longtemps :winking_face_with_tongue:.",
   "Tous les ans, j'aime participer à la maraude :helmet_with_white_cross: :handshake: pour les SDF avec des amis. \n  Vous souhaitez y participer ?",
-  "J'apprécie les jeux de réflexions :thinking_face: : les échecs :chess_pawn:, les jeux de plateau :game_die:, les jeux en ligne :trackball:, les jeux vidéos :video_game:, Code Combat, Coding Game... \n  Lequel vous préférez ?", "J'aime suivre l'actualité économique :chart_with_upwards_trend:, les innovations technologiques :bulb: et les découvertes scientifiques.",
+  "J'apprécie les jeux de réflexions :thinking_face: : les échecs :chess_pawn:, les jeux de plateau :game_die:, les jeux en ligne :trackball:, les jeux vidéos :video_game:, Code Combat, Coding Game... \n  Lequel préférez-vous ?", "J'aime suivre l'actualité économique :chart_with_upwards_trend:, les innovations technologiques :bulb: et les découvertes scientifiques.",
   "Vous saviez que l'on va certainement réussir à dompter l'énergie des étoiles dans les prochaines décénies :rocket: ?",
 ];
 
