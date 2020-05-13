@@ -100,6 +100,26 @@ const initialState = {
           underSkill: 'PHP',
           count: 1,
         },
+        {
+          id: 7,
+          underSkill: 'GitHub',
+          count: 1,
+        },
+        {
+          id: 8,
+          underSkill: 'SQL',
+          count: 1,
+        },
+        {
+          id: 9,
+          underSkill: 'Bootstrap',
+          count: 1,
+        },
+        {
+          id: 10,
+          underSkill: 'UML',
+          count: 1,
+        },
       ],
     },
   ],
