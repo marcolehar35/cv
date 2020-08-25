@@ -17,7 +17,7 @@ const initialState = {
     {
       id: 0,
       name: 'Charg\u00e9 de communication',
-      place: "Chambre de commerce et d'industrie des Services et des M\u00e9tiers (CCISM) - Tahiti",
+      place: " \n Chambre de commerce et d'industrie des Services et des M\u00e9tiers (CCISM) - Tahiti",
       period: '2020',
       description: 'Créer et rédiger des supports de communication (Newsletters,...)\n Animer les sites web et les réseaux sociaux \n Gérer les relations presse (invitations, communiqué de presse...) \n  Créer un calendrier éditorial et appuyer les différents services',
     },
